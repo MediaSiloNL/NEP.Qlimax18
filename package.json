@@ -1,0 +1,22 @@
+{
+  "name": "qlimax18",
+  "version": "1.1.0",
+  "description": "Qlimax 2018 Control CasparCG",
+  "main": "index.js",
+  "scripts": {
+    "start": "electron .",
+    "package-mac": "electron-packager . --overwrite --platform=darwin --arch=x64 --icon=icons/mac/Qlimax2018.icns --prune=true --out=release-builds",
+    "package-win": "electron-packager . \"Qlimax 2018 Graphics\" --overwrite --asar=true --platform=win32 --arch=ia32 --icon=icons/win/Qlimax2018.ico --prune=true --out=release-builds --version-string.CompanyName=CE --version-string.FileDescription=CE --version-string.ProductName=\"Qlimax 2018 Graphics\"",
+    "package-linux": "electron-packager . \"Qlimax 2018 Graphics\" --overwrite --asar=true --platform=linux --arch=x64 --icon=icons/png/Qlimax2018.png --prune=true --out=release-builds"
+  },
+  "author": "Jordi Floor",
+  "license": "MIT",
+  "dependencies": {
+    "caspar-cg": "^0.1.0",
+    "electron": "^3.0.10",
+    "jquery": "^3.3.1"
+  },
+  "devDependencies": {
+    "electron-packager": "^12.2.0"
+  }
+}

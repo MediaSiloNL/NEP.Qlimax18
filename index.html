@@ -1,0 +1,116 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+	<!-- Framework CSS -->
+	<link href="plugins/bootstrap/bootstrap.min.css" rel="stylesheet" type="text/css">
+	<link href="plugins/fontawesome/css/all.css" rel="stylesheet" type="text/css">
+
+	<!-- Plugins CSS -->
+	<link href="plugins/bootstrap-select/css/bootstrap-select.min.css" rel="stylesheet" type="text/css">
+	<link href="plugins/jstree/themes/default/style.css" rel="stylesheet" type="text/css">
+
+	<!-- Custom CSS -->
+	<link href="css/qlimax.fonts.css" rel="stylesheet" type="text/css">
+	<link href="css/qlimax.css" rel="stylesheet" type="text/css">
+	
+
+    <title>Qlimax 2018 || Graphics Tool</title>
+  </head>
+  <body>
+        <video autoplay muted loop id="bgVideo">
+        <source src="./img/bg.mp4" type="video/mp4">
+        </video>
+		<nav class="navbar navbar-expand navbar-purple">
+			<a class="navbar-brand" href="#"><img src="img/qlimax.logo.black.svg" height="30" /> <span>The Gamechanger</span></a>
+			
+			<ul class="navbar-nav mr-auto">
+				<!-- <li class="nav-item active">
+					<a class="nav-link" href="#"><i class="fas fa-home"></i></a>
+				</li> -->
+            </ul>
+            <div class="windowButtons float-right">
+                <div class="windowAction windowMinimize float-left align-middle"><i class="far fa-window-minimize"></i></div>
+                <!-- <div class="windowAction windowMaximize float-left align-middle"><i class="far fa-window-restore"></i></div> -->
+                <div class="windowAction windowClose float-left align-middle"><i class="fas fa-times"></i></div>
+            </div>
+		</nav>
+	<div class="container-fluid pt-5">
+
+		<div class="row justify-content-md-center mb-5">
+			<div class="col-9">
+				<div class="card">
+					<div class="card-header">
+                        Graphics
+                        <button class="btn btn-xs float-right" name="openFile" id="openFile"><i class="fas fa-folder-open"></i> Open Event File</button>
+					</div>
+					<div class="card-body">
+						<div class="row">
+                            <div class="col-6">
+                                <div class="list-group gfx_1">
+                                    <li class="list-group-item list-group-item-header">Main Graphics</li>
+                                </div>
+                            </div>
+                            <div class="col-6">
+                                <div class="list-group gfx_2">
+                                    <li class="list-group-item list-group-item-header">Lower Thirds</li>
+                                </div>
+                            </div>
+                        </div>
+					</div>
+				</div>
+            </div>
+            <div class="col-2">
+				<div class="card">
+                    <div class="card-body py-5 clients">
+                       <div class="row">
+                            <div class="col text-center">
+                                <img src="./img/qlimax2018.png" width="80%">
+                            </div>
+                           
+                       </div>
+                       <div class="row">
+                            <div class="col text-center">
+                                <img src="./img/qdance.svg" width="50%">
+                            </div>
+                            
+                        </div>
+                        <div class="row">
+                            <div class="col text-center">
+                                    <img src="./img/nep.logo.white.svg" width="50%"><br>
+                                    <p class="copyright">© 2018 - Jordi Floor</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+			</div>
+        </div>
+	</div>
+        
+	
+    <!-- Framework Scripts -->
+    <script>
+        window.$ = window.jQuery = require("jquery");
+    </script>
+
+	<!-- <script src="plugins/jquery/jquery-3.3.1.min.js"></script> -->
+	<script src="plugins/popper-js/popper.min.js"></script>
+	<script src="plugins/bootstrap/bootstrap.min.js"></script>
+	<script src="plugins/socketio/socket.io.js"></script>
+    <script src="plugins/jstree/jstree.min.js"></script>
+
+	<!-- Plugin Scripts -->
+    <script src="plugins/bootstrap-select/js/bootstrap-select.js"></script>
+    <script src="plugins/gsap/minified/TweenMax.min.js"></script>
+    <script src="plugins/gsap/minified/TimelineLite.min.js"></script>
+    <script src="plugins/gsap/minified/plugins/CSSPlugin.min.js"></script>
+
+	<!-- Custom scripts -->
+	<script src="js/qlimax.js"></script>
+  </body>
+</html>
+
+
+
