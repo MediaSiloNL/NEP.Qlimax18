@@ -9,6 +9,10 @@
     "package-win": "electron-packager . \"Qlimax 2018 Graphics\" --overwrite --asar=true --platform=win32 --arch=ia32 --icon=icons/win/Qlimax2018.ico --prune=true --out=release-builds --version-string.CompanyName=CE --version-string.FileDescription=CE --version-string.ProductName=\"Qlimax 2018 Graphics\"",
     "package-linux": "electron-packager . \"Qlimax 2018 Graphics\" --overwrite --asar=true --platform=linux --arch=x64 --icon=icons/png/Qlimax2018.png --prune=true --out=release-builds"
   },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/MediaSiloNL/NEP.Qlimax18"
+  },
   "author": "Jordi Floor",
   "license": "MIT",
   "dependencies": {
